@@ -318,7 +318,7 @@
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
             <h1>About Us</h1>
             <h3 style="color: #fff; font-size:20px; max-width:650px; margin-top:10px;">Sri Maruthi PU College Hoskote is one of the Leading <br> Pre-University colleges in Hoskote offering Premium Education</h3>
-            <a href="courses.html" class="btn-get-started">Contact Us</a>
+            <a href="./contact" class="btn-get-started">Contact Us</a>
         </div>
     </section>
 

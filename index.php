@@ -23,7 +23,7 @@
             <span>Sri Maruthi PU College</span>
             <h1>Moulding Better Tomorrow<br>through Education & Excellence</h1>
             <h2>Empowering students to create solutions for tomorrow's challenges</h2>
-            <a href="courses.html" class="btn-get-started">Contact Us</a>
+            <a href="./contact" class="btn-get-started">Contact Us</a>
         </div>
     </section>
 

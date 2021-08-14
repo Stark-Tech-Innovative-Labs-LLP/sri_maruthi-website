@@ -25,8 +25,8 @@
             <a href="#"><span>Fields</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                <li><a id="pu" href="./pu.php">PU</a></li>
-                <li><a id="degree" href="./degree.php">Degree</a></li>
+                <li><a id="pu" href="./pu">PU</a></li>
+                <li><a id="degree" href="./degree">Degree</a></li>
               </li>
             </ul>
           </li>
