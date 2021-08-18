@@ -168,13 +168,13 @@ label{
 
 <br>
 
-<section id="contact" class="contact">
+<section  id="contact" class="contact">
       <div class="container">
 
         <div style="margin-top:25px;" id="contact_us_txt" >
-        <h2  style="font-weight:1000;color:black;" >  We're here to help you! </h2>
+        <h2 data-aos="fade-right" data-aos-delay="100"  style="font-weight:1000;color:black;" >  We're here to help you! </h2>
 
-        <h5 style="color:black;">
+        <h5 data-aos="fade-right" data-aos-delay="100" style="color:black;">
 Thanks for reaching us out,
 We will Contact you soon
         </h5>
@@ -183,7 +183,7 @@ We will Contact you soon
 
         <br>
         <div class="row" >
-          <div class="col-lg-6">
+          <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6">
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
@@ -191,7 +191,7 @@ We will Contact you soon
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div data-aos="fade-left" data-aos-delay="100" class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
@@ -199,7 +199,7 @@ We will Contact you soon
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div data-aos="fade-left" data-aos-delay="100" class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
@@ -211,12 +211,12 @@ We will Contact you soon
 
         <div class="row" >
 
-          <div class="col-lg-6 ">
+          <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6 ">
             <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-         <img style="width:100%;" src="assets/img/contact/contact_us_1.png" alt="">
+         <img data-aos="fade-right" data-aos-delay="100" style="width:100%;" src="assets/img/contact/contact_us_1.png" alt="">
             </div>
 
-          <div class="col-lg-6">
+          <div data-aos="fade-left" data-aos-delay="100" class="col-lg-6">
           <form style=" background-color:white; width: 90%;border:1px solid ; border-color:rgba(40, 79, 235, 0.72) ; border-radius:25px; padding:10%;">
   <div class="row">
     <div class="col">

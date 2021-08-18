@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
     <style>
         #contact {
@@ -145,13 +146,62 @@ label{
   }
 }
 
+
+
+
+.card{ 
+          margin-bottom: 40px !important;
+          border-radius:22px !important;
+        height:330px; 
+        }
+
+        .section-title{
+          margin-top:40px !important;
+      margin-left:60px !important;
+        }
+
+
+        body{
+            height:100%;
+            width:100%;
+        }
+     img{
+          border-top-left-radius:22px !important;
+          border-top-right-radius:22px !important;
+       
+        }
+        .card-img-top{
+             height:180px !important;
+        }
+
+        .btn{
+          width:50%;
+          margin:9px;
+        }
+
+        div{
+          margin:0 !important;
+          padding: 0 !important;
+        }
+
+        .heading{
+          margin-top:  40px !important;
+          margin-bottom:  40px ;
+        }
+
+
+
+
+
+
+
     </style>
     <?php require("./header.php") ?>
 </head>
-<section style="background: url( 'assets/img/cus.jpg' );background-position-x:40%; background-position-y:40%; " id="hero" class="d-flex justify-content-center align-items-center">
+<section style="background: url( 'assets/img/study-material/head1.jpg' );background-position-x:40%; background-position-y:40%; " id="hero" class="d-flex justify-content-center align-items-center">
     <div class="container position-relative"  data-aos="zoom-in" data-aos-delay="100">
-      <h1>Contact Us</h1>
-      <h2>Our Door is always open to help you</h2>
+      <h1>Materials</h1>
+      <h2>No matter how busy you may think you are, you must find time for reading</h2>
       <a href="courses.html" class="btn-get-started">Get Started</a>
     </div>
   </section>
@@ -167,60 +217,87 @@ label{
 <div class="container">
     <?php 
       if($_GET['class']=="LANG"){
-        ?>                    <h3> 1ST PU Languages</h3>
+        ?>                  
+
+
+</center> 
+<div style="align:left;" class="section-title">
+        <h2>Languages</h2>
+        <p>Languages</p>
+    </div> 
+    <center>
+
+
+  
+   <br>
+
+
 
        <div class="row">
+       <h3 class="heading"> 1<sup>st</sup> PU Languages</h3>
         <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+        <div class="card" style="width: 70%;">
+<img src="https://i.gadgets360cdn.com/large/kannada_google_1622781055470.jpg" class="card-img-top" alt="...">
 <div class="card-body">
-<h5 class="card-title">Kannada Study Materials [PUC]</h5>
+  <br>
+<h5 class="card-title">Kannada Study Materials <br> [PUC]</h5>
 <a href="waste?class=PUSC"  class="btn btn-danger">View</a>
 </div>
 </div>
-         </div> <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+         </div> 
+         <div class="col-lg-4">
+        <div class="card" style="width: 70%;">
+<img src="https://img.etimg.com/thumb/msid-77058712,width-650,imgsize-172210,,resizemode-4,quality-100/english_istock.jpg" class="card-img-top" alt="...">
 <div class="card-body">
-<h5 class="card-title">English Study Materials [PUC]</h5>
+  <br>
+<h5 class="card-title">English Study Materials <br> [PUC]</h5>
 <a href="waste?class=PUSC"  class="btn btn-danger">View</a>
 </div>
 </div>
          </div>
          <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
-<div class="card-body">
-<h5 class="card-title">Hindi Study Materials [PUC]</h5>
+        <div class="card" style="width: 70%;">
+<img src="https://images.indianexpress.com/2019/07/hindi-759.jpg" class="card-img-top" alt="...">
+<div class="card-body"> 
+  <br> 
+<h5 class="card-title">Hindi Study Materials <br> [PUC]</h5>
 <a href="waste?class=PUSC"  class="btn btn-danger">View</a>
 </div>
 </div>
          </div>
      
-       </div>       <h3> 2ND PU Languages</h3>
+       </div> 
+       
+       <h3 class="heading"> 2<sup>nd</sup> PU Languages</h3>
                <div class="row">
                <div class="col-lg-4">
-               <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+               <div class="card" style="width: 70%;">
+  <img src="https://i.pinimg.com/originals/c1/df/c5/c1dfc543bcf0dd88fc4211ab5c5fd4ea.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Kannada Study Materials [PUC]</h5>
-    <a href="waste?class=PUSC"  class="btn btn-danger">View</a>
-  </div>
-</div>
-                </div> <div class="col-lg-4">
-               <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">English Study Materials [PUC]</h5>
+    <br>
+    <h5 class="card-title">Kannada Study Materials <br> [PUC]</h5>
     <a href="waste?class=PUSC"  class="btn btn-danger">View</a>
   </div>
 </div>
                 </div>
+                
                 <div class="col-lg-4">
-               <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+               <div class="card" style="width: 70%;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLo7pggn0BQDSQnOFHQZdaAz1ThaSA7Zr7Lg&usqp=CAU" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Hindi Study Materials [PUC]</h5>
+    <br>
+    <h5 class="card-title">English Study Materials <br> [PUC]</h5>
+    <a href="waste?class=PUSC"  class="btn btn-danger">View</a>
+  </div>
+</div>
+                </div>
+
+
+                <div class="col-lg-4">
+               <div class="card" style="width: 70%;">
+  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+  <div class="card-body"> <br>
+    <h5 class="card-title">Hindi Study Materials <br> [PUC]</h5>
     <a href="waste?class=PUSC"  class="btn btn-danger">View</a>
   </div>
 </div>
@@ -233,89 +310,124 @@ label{
 
       }elseif($_GET['class']=="PUSC"){
        ?> 
+
+
+</center> 
+<div style="align:left;" class="section-title">
+        <h2>Science Stream</h2>
+        <p>Science Stream</p>
+    </div> 
+    <center>
+
   
-      <h3> 1ST PU Science</h3>
+  <h3 class="heading"> 1<sup>st</sup> PU Science </h3>
             <div class="row">
-              <div class="col-lg-6">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+              <div class="col-lg-6"> 
+                 <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/phy1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Physics Study Materials </h5>
+    
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
-              <div class="col-lg-6">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+              <div class="col-lg-6">
+                  <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/chem1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Cemistry Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
             </div>
             <div class="row">
-              <div class="col-lg-6">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+              <div class="col-lg-6"> 
+                 <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/math1.png" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Mathematics Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
-              <div class="col-lg-6">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+              <div class="col-lg-6">  
+                <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/bio2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Bilogy Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
+</div>
           <div class="row">
-            <div class="col">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+<div class="col-lg-3"></div>
+<center>
+<div class="col-lg-6"> 
+               <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/cs1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Computer Science Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
+</center>
+<div class="col-lg-3"></div>
           </div>
-            </div>
-            <h3> 2ND PU Science</h3>
+            
+          <h3 class="heading"> 2<sup>nd</sup> PU Science</h3>
             <div class="row">
-              <div class="col-lg-6">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+              <div class="col-lg-6">  <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/phy2.png" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Physics Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
-              <div class="col-lg-6">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+              <div class="col-lg-6">  <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/chem2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Cemistry Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
             </div>
             <div class="row">
-              <div class="col-lg-6">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+              <div class="col-lg-6">  <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/math2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Mathematics Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
-              <div class="col-lg-6">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+              <div class="col-lg-6">  <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/bio1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Bilogy Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
-          <div class="row">
-            <div class="col">  <div class="card" style="width: 18rem;">
-  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
+<div class="row">
+<div class="col-lg-3"></div>
+<center>
+<div class="col-lg-6"> 
+               <div class="card" style="width: 60%;">
+  <img src="assets/img/study-material/cs2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Computer Science Study Materials </h5>
     <a href="waste?class=DEG"  class="btn btn-success">View</a>
   </div>
 </div></div>
+</center>
+<div class="col-lg-3"></div>
           </div>
             </div>
      
@@ -325,14 +437,14 @@ label{
 
      <h3> 1ST PU Commerce</h3>
         <div class="row">
-               <div class="col-lg-6">  <div class="card" style="width: 18rem;">
+               <div class="col-lg-6">  <div class="card" style="width: 70%;">
    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
    <div class="card-body">
      <h5 class="card-title">Economics Study Materials </h5>
      <a href="waste?class=DEG"  class="btn btn-success">View</a>
    </div>
  </div></div>
-               <div class="col-lg-6">  <div class="card" style="width: 18rem;">
+               <div class="col-lg-6">  <div class="card" style="width: 70%;">
    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
    <div class="card-body">
      <h5 class="card-title">Business Studies Study Materials </h5>
@@ -341,14 +453,14 @@ label{
  </div></div>
              </div>
              <div class="row">
-               <div class="col-lg-6">  <div class="card" style="width: 18rem;">
+               <div class="col-lg-6">  <div class="card" style="width: 70%;">
    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
    <div class="card-body">
    <h5 class="card-title">Accountancy Study Materials </h5>
      <a href="waste?class=DEG"  class="btn btn-success">View</a>
    </div>
  </div></div>
-               <div class="col-lg-6">  <div class="card" style="width: 18rem;">
+               <div class="col-lg-6">  <div class="card" style="width: 70%;">
    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
    <div class="card-body">
      <h5 class="card-title">Computer Science Study Materials </h5>
@@ -359,14 +471,14 @@ label{
              </div>
              <h3> 2ND PU Commerce</h3>
              <div class="row">
-               <div class="col-lg-6">  <div class="card" style="width: 18rem;">
+               <div class="col-lg-6">  <div class="card" style="width: 70%;">
    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
    <div class="card-body">
      <h5 class="card-title">Economics Study Materials </h5>
      <a href="waste?class=DEG"  class="btn btn-success">View</a>
    </div>
  </div></div>
-               <div class="col-lg-6">  <div class="card" style="width: 18rem;">
+               <div class="col-lg-6">  <div class="card" style="width: 70%;">
    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
    <div class="card-body">
      <h5 class="card-title">Business Studies Study Materials </h5>
@@ -375,14 +487,14 @@ label{
  </div></div>
              </div>
              <div class="row">
-               <div class="col-lg-6">  <div class="card" style="width: 18rem;">
+               <div class="col-lg-6">  <div class="card" style="width: 70%;">
    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
    <div class="card-body">
    <h5 class="card-title">Accountancy Study Materials </h5>
      <a href="waste?class=DEG"  class="btn btn-success">View</a>
    </div>
  </div></div>
-               <div class="col-lg-6">  <div class="card" style="width: 18rem;">
+               <div class="col-lg-6">  <div class="card" style="width: 70%;">
    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
    <div class="card-body">
      <h5 class="card-title">Computer Science Study Materials </h5>

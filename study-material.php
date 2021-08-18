@@ -13,18 +13,28 @@
         /* css */
 
         .card{ 
+          margin-bottom: 40px !important;
           border-radius:22px !important;
         height:320px; 
         }
 
-      
+        .section-title{
+          margin-top:40px !important;
+      margin-left:60px !important;
+        }
+
+
+        body{
+            height:100%;
+            width:100%;
+        }
      img{
           border-top-left-radius:22px !important;
           border-top-right-radius:22px !important;
        
         }
         .card-img-top{
-             height:190px !important;
+             height:180px !important;
         }
 
         .btn{
@@ -36,6 +46,12 @@
           margin:0 !important;
           padding: 0 !important;
         }
+
+        .heading{
+          margin-top:  40px !important;
+          margin-bottom:  40px ;
+        }
+
 
 
     </style>
@@ -65,72 +81,121 @@
 <br>
 
 <main id= " main">
-
+<div class="section-title">
+        <h2>Study Materials </h2>
+        <p>Study Materials</p>
+    </div>  
 <center>
-    <h1>Study Materials</h1>
-    <br>
-    <br>
-    <h4><u>Pre-University Course</u></h4>
-    <br> 
-    <div class="container">
-    <div class="row">
-    <div style="margin-top:10px !important;margin-bottom:10px !important " class="col-lg-4 col-sm-12">
-    <div class="card" style="width: 18rem;">
+<div class="container">
+  
+<div class="row">
+    
+
+
+
+    
+
+    <h2 class="heading">Pre-University Materials</h2>
+
+
+<div class="col-lg-4">
+<center>
+
+    <div class="card" style="width: 70%;">
   <img class="card_img" src="assets/img/study-material/deg.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+    <br>
     <h5 class="card-title">Languages Study Materials [PUC]</h5>
     <a href="material?class=LANG"  class="btn btn-danger">View</a>
   </div>
 </div>
-</div> 
-<div style="margin-top:10px !important;margin-bottom:10px !important " class="col-lg-4 col-sm-12">
-    <div class="card" style="width: 18rem;">
+
+</center>
+</div>
+
+
+
+<div class="col-lg-4">
+
+    <div class="card" style="width: 70%;">
   <img src="assets/img/study-material/science.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Science Study Materials [PUC]</h5>
+    <br>
+    <h5 class="card-title">Science Study Materials <br> [PUC]</h5>
     <a href="material?class=PUSC"  class="btn btn-danger">View</a>
-  </div>
-</div></div>
-        <div style="margin-top:10px !important;margin-bottom:10px !important " class="col-lg-4 col-sm-12">
-            <div class="card" style="width: 18rem;">
+
+</div>
+</div>
+</div>
+
+
+
+<div class="col-lg-4">
+  <center>
+    
+  
+            <div class="card" style="width: 70%;">
   <img src="assets/img/study-material/commerce.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title">Commerece Study Materials [PUC]</h5>
+  <br>
+  <h5 class="card-title">Commerece Study Materials  [PUC]</h5>
     <a href="material?class=PUCM"  class="btn btn-primary">View</a>
   </div>
-</div></div>
-    </div>
-    </div>
-    </div>
-<br>
-<br>
-<br>
-<br>
-    <h4><u>Degree Course</u></h4>
-<div class="container">
-      
-<div class=" row">
- 
-        <div style="margin-top:10px !important;margin-bottom:10px !important " class="col-lg-4 col-sm-12"><div class="card" style="width: 18rem;">
-  <img src="assets/img/study-material/deg.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">B.Com Study Materials </h5>
-    <a href="material?class=DEG"  class="btn btn-success">View</a>
-  </div>
-</div></div>
-
-
-      
-    </div>
 </div>
-</center>
+  </center>
+</div>
+
+    </div>
+
+ 
+
+
+      </center>
+<br>
+<br>
+
+
+  <div class="row">
+    <div class="col-lg-4"></div>
+
+      <div class="col-lg-4">
+        <center>
+        <h2 class="heading">Degree Study Materials</h2>
+
+ 
+<div class="card" style="width: 70%;">
+<img src="assets/img/study-material/deg.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <br>
+<h5 style="margin-top:15px;" class="card-title">B.Com Study Materials </h5>
+
+<a href="material?class=DEG"  class="btn btn-success">View</a>
+</div>
+</div>
+      </div>
+      </center>
+      <div class="col-lg-4"></div>
+ 
+  </div>
+</div>
+
+
+
+      
+
 </main>
 
+<?php include("./footer.php") ?>
 
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<?php include("libs.php"); ?>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+
+
 </body>
 </html> 
