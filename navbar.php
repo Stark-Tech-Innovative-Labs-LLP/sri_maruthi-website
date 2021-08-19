@@ -6,18 +6,18 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a id="home" href="./index">Home</a></li>
-          <li><a id="about" href="./about">About</a></li>
-          <li><a id="gallery-link" href="./gallery">Gallery</a></li>
-          <li><a id="event" href="./events">Events</a></li>
-          <li><a id="courses" href="./courses">Courses</a></li>
-          <li><a id="contact" href="./contact">Contact</a></li>
+          <li><a id="home" href="./Index">Home</a></li>
+          <li><a id="about" href="./About">About</a></li>
+          <li><a id="gallery-link" href="./Gallery">Gallery</a></li>
+          <li><a id="event" href="./Events">Events</a></li>
+          <li><a id="courses" href="./Courses">Courses</a></li>
+          <li><a id="contact" href="./Contact">Contact</a></li>
           <li class="dropdown">
             <a href="#"><span>Resource</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                <li><a id="admission" href="./admission">Admission InQuery</a></li>
-                <li><a id="study-material" href="./study-material">Study Material</a></li>
+                <li><a id="admission" href="./Admission">Admission InQuery</a></li>
+                <li><a id="study-material" href="./StudyMaterial">Study Material</a></li>
               </li>
             </ul>
           </li>
@@ -25,8 +25,8 @@
             <a href="#"><span>Fields</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                <li><a id="pu" href="./pu">PU</a></li>
-                <li><a id="degree" href="./degree">Degree</a></li>
+                <li><a id="pu" href="./Pu">PU</a></li>
+                <li><a id="degree" href="./Degree">Degree</a></li>
               </li>
             </ul>
           </li>

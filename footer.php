@@ -20,8 +20,8 @@
                   <div class="col-lg-2 col-6 footer-links">
                     <h4 style="font-weight: 700; font-size: 22px;">Useful Links</h4>
                     <ul>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="./Index.php">Home</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="./About.php">About us</a></li>
                       <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
                       <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
                       <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
