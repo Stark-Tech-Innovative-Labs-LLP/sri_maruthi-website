@@ -1,7 +1,7 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       
-      <a href="index.php" class="logo me-auto"><img src="./assets/img/logo.png" alt="" class="Logo"> 
+      <a href="Index" class="logo me-auto"><img src="./assets/img/logo.png" alt="" class="Logo"> 
       <span style="font-weight: 600; font-size:1rem;">Sri Maruthi PU College</span></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
