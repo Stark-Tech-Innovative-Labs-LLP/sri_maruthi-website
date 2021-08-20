@@ -247,7 +247,7 @@ body{
     <div class="container position-relative"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
       <h1>Courses Offered</h1>
       <h2>Learn Without Limits</h2>
-      <a href="courses.html" class="btn-get-started">Get Started</a>
+      <a href="./Contact.php" class="btn-get-started">Get Started</a>
     </div>
   </section>
 
@@ -414,5 +414,8 @@ body{
   <script>
     AOS.init();
   </script>
+  <?php
+   include("footer.php");
+   include("libs.php"); ?>
 </body>
 </html>

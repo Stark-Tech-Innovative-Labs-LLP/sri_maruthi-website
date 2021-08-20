@@ -235,7 +235,7 @@
                                     <div class="theback py-3 px-3">
                                         <div class="quote mt-3">
                                             <h4><i class="fa fa-quote-left"></i></h4>
-                                            <p class="about text-justify"><b>Pursuing 1 year MBBS @ Sri Maruthi PU College 2020 batch</b> <br> <br> " Getting a medical seat this year amidst Covid 19 Pandemic, Lock down, uncertainty of NEET exams was only possible due the to unrelenting effort by my teachers at VBR PU College who conducted the online classes and mentoring with great punctuality, passion and efficiency ."</p>
+                                            <p class="about text-justify"><b>Pursuing 1 year MBBS @ Sri Maruthi PU College 2020 batch</b> <br> <br> " Getting a medical seat this year amidst Covid 19 Pandemic, Lock down, uncertainty of NEET exams was only possible due the to unrelenting effort by my teachers at Sri Maruthi PU College who conducted the online classes and mentoring with great punctuality, passion and efficiency ."</p>
                                         </div>
                                     </div>
                                 </div>
@@ -458,6 +458,7 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
                         <div class="content">
                             <h3>Get In Touch</h3>
                             <img src="img/contact-us-1530424_640.png" alt="" style="width:140px; height:auto;">
+                            <p>"Success is not final; failure is not fatal: <br> It is the courage to continue that counts."</p>
 
                             <div class="text-center">
                                 <a href="contact" class="more-btn">Contact Us <i class="bx bx-chevron-right"></i></a>
@@ -469,7 +470,7 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
                             <div class="row">
                                 <div class="col-xl-4 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0">
-                                        <a href="courses"><i class="bx bx-receipt"></i>
+                                        <a href="Courses"><i class="bx bx-receipt"></i>
                                             <h4>Courses</h4>
                                         </a>
                                         <p>" Your gateway to success <br>We offer you a brighter future "</p>
@@ -477,7 +478,7 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
                                 </div>
                                 <div class="col-xl-4 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0">
-                                        <a href="study-material"><i class="bx bx-cube-alt"></i>
+                                        <a href="StudyMaterial"><i class="bx bx-cube-alt"></i>
                                             <h4>Study Materials</h4>
                                         </a>
                                         <p>" Premium learning experience <br> Every lesson counts "</p>
@@ -485,7 +486,7 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
                                 </div>
                                 <div class="col-xl-4 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0">
-                                        <a href="gallery"> <i class="bx bx-images"></i>
+                                        <a href="Gallery"> <i class="bx bx-images"></i>
                                             <h4>Gallery</h4>
                                         </a>
                                         <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
@@ -507,10 +508,6 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
     <?php
     include("footer.php");
     include("libs.php"); ?>
-
-
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>

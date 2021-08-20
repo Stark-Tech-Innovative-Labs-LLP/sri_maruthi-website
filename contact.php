@@ -152,7 +152,7 @@ label{
     <div class="container position-relative"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
       <h1>Contact Us</h1>
       <h2>Our Door is always open to help you</h2>
-      <a href="courses.html" class="btn-get-started">Get Started</a>
+      <a href="./Contact.php" class="btn-get-started">Get Started</a>
     </div>
   </section>
 <body>
@@ -279,5 +279,8 @@ We will Contact you soon
   <script>
     AOS.init();
   </script>
+  <?php
+   include("footer.php");
+   include("libs.php"); ?>
     </body>
 </html>

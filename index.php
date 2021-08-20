@@ -23,7 +23,7 @@
             <span>Sri Maruthi PU College</span>
             <h1>Moulding Better Tomorrow<br>through Education & Excellence</h1>
             <h2>Empowering students to create solutions for tomorrow's challenges</h2>
-            <a href="./contact" class="btn-get-started">Contact Us</a>
+            <a href="./Contact" class="btn-get-started">Contact Us</a>
         </div>
     </section>
 
@@ -100,7 +100,7 @@
                   inspired. At Mahesh it is not just about mentoring but motivating.
                 </p>
                 <div class="text-center">
-                  <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                  <a href="./About.php" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@
                     <h4>PCMCs & PCMB</h4>
                   </div>
 
-                  <h3><a href="./courses">Science</a></h3>
+                  <h3><a href="./Courses">Science</a></h3>
                   <p>
                     The curriculum structure is designed to offer intensive stress-free preparation to any of the combinations listed below so that students excel in both the Pre-University (PU) Board Exam.
                   </p>
@@ -168,7 +168,7 @@
                     <h4>EBACS</h4>
                   </div>
 
-                  <h3><a href="./courses">Commerce</a></h3>
+                  <h3><a href="./Courses">Commerce</a></h3>
                   <p>The college offers a strong foundation, in Commerce in Pre University College, for students aspiring to study professional courses and/or pursue bachelor’s 
                     degree programs in Commerce and business management.</p>
                 </div>
@@ -183,7 +183,7 @@
                     <h4>Degree & B.com</h4>
                   </div>
 
-                  <h3><a href="./courses">Degree & B.com</a></h3>
+                  <h3><a href="./Courses">Degree & B.com</a></h3>
                   <p>Commerce graduates can look forward to exciting careers as Investment Bankers, Financial Controllers, Analysts, International Trade Advisors and Product Leaders.</p>
                 </div>
               </div>

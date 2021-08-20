@@ -61,7 +61,7 @@
     <div class="container position-relative"  data-aos="zoom-in" data-aos-delay="100">
       <h1>Study Materials</h1>
       <h2>The best documents shared by your fellow students, organized in one place.</h2>
-      <a href="courses.html" class="btn-get-started">Get Started</a>
+      <a href="./Contact.php" class="btn-get-started">Get Started</a>
     </div>
   </section>
 
@@ -184,17 +184,18 @@
 
 </main>
 
-<?php include("./footer.php") ?>
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<?php include("libs.php"); ?>
+
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
 
-
+<?php
+ include("footer.php");
+ include("libs.php"); ?>
 </body>
 </html> 
