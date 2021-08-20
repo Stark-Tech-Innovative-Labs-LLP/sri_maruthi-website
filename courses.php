@@ -244,7 +244,7 @@ body{
 
 
 <section style="background: url( 'assets/img/courses/head.jpg' ) " id="hero" class="d-flex justify-content-center align-items-center">
-    <div class="container position-relative"  data-aos="zoom-in" data-aos-delay="100">
+    <div class="container position-relative"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
       <h1>Courses Offered</h1>
       <h2>Learn Without Limits</h2>
       <a href="courses.html" class="btn-get-started">Get Started</a>
@@ -265,7 +265,7 @@ body{
 <br>
 
 
-       <div data-aos="fade-right" data-aos-delay="100" class="section-title">
+       <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" class="section-title">
                     <h2>Pre University Course</h2>
                     <p>Pre University Course</p>
                 </div> 
@@ -275,10 +275,10 @@ body{
         
   
 
-<div  class="col-lg-8"><h4 data-aos="fade-right" data-aos-delay="100"> <center><b>Science</b></center> </h4></div>
+<div  class="col-lg-8"><h4 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"> <center><b>Science</b></center> </h4></div>
     
 <div class="col-lg-4"><center>
-        <h4 data-aos="fade-left" data-aos-delay="100">
+        <h4 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
             <b>Commerce</b>
         </h4>
     </center></div>
@@ -287,7 +287,7 @@ body{
 <br>
 
 
-<div data-aos="zoom-in" data-aos-delay="100" class="col-lg-4"> 
+<div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" class="col-lg-4"> 
 <center> 
   <div  class="card card0">
      <div class="border">
@@ -303,7 +303,7 @@ body{
  </div>
  </div>
  </center>
- <div data-aos="zoom-in" data-aos-delay="100" class="col-lg-4"> 
+ <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" class="col-lg-4"> 
  <center> 
  <div  class="card card1">
      <div class="border">
@@ -329,7 +329,7 @@ body{
     <br>
 <br>
 
-    <div data-aos="zoom-in" data-aos-delay="100" class="col-lg-4"> 
+    <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" class="col-lg-4"> 
 
 <center> 
   <div  class="card card2">
@@ -369,7 +369,7 @@ body{
 <br>
 <div class="row">
 
-  <div data-aos="fade-right" data-aos-delay="100" class="section-title">
+  <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" class="section-title">
                     <h2>Bachelor’s Degree</h2>
                     <p>Bachelor’s Degree</p>
                 </div> 
@@ -379,13 +379,13 @@ body{
  <br>
  <br>
     <center>
-        <h4 data-aos="fade-right" data-aos-delay="100">
+        <h4 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
          <b>   B.Com</b>
         </h4>
     </center>
 </div>
 
-<div data-aos="zoom-in" data-aos-delay="100" class="col-lg-12">
+<div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" class="col-lg-12">
 <center> 
   <div  class="card card3">
      <div class="border">

@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #study-material {
-            color: #3E64FF;
-        }
+  
 
         /* css */
 
@@ -51,11 +49,12 @@
           margin-top:  40px !important;
           margin-bottom:  40px ;
         }
+      
 
 
 
     </style>
-    <?php require("./header.php") ?>
+   <?php require("./header.php") ?>
 </head>
 
 <section style="background: url( 'assets/img/study-material/head1.jpg' ) " id="hero" class="d-flex justify-content-center align-items-center">
@@ -81,7 +80,7 @@
 <br>
 
 <main id= " main">
-<div class="section-title">
+<div data-aos="fade-right" data-aos-delay="100"   class="section-title">
         <h2>Study Materials </h2>
         <p>Study Materials</p>
     </div>  
@@ -95,18 +94,18 @@
 
     
 
-    <h2 class="heading">Pre-University Materials</h2>
+    <h2 data-aos="fade-down" data-aos-delay="100" class="heading">Pre-University Materials</h2>
 
 
 <div class="col-lg-4">
 <center>
 
-    <div class="card" style="width: 70%;">
+    <div  data-aos="zoom-in" data-aos-delay="120" class="card" style="width: 70%;">
   <img class="card_img" src="assets/img/study-material/deg.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
     <h5 class="card-title">Languages Study Materials [PUC]</h5>
-    <a href="material?class=LANG"  class="btn btn-danger">View</a>
+    <a  href="material?class=LANG"  class="btn btn-danger">View</a>
   </div>
 </div>
 
@@ -117,12 +116,12 @@
 
 <div class="col-lg-4">
 
-    <div class="card" style="width: 70%;">
+    <div data-aos="zoom-in" data-aos-delay="120" class="card" style="width: 70%;">
   <img src="assets/img/study-material/science.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
-    <h5 class="card-title">Science Study Materials <br> [PUC]</h5>
-    <a href="material?class=PUSC"  class="btn btn-danger">View</a>
+    <h5 class="card-title">Science Study Materials   <br>   [PUC]</h5>
+    <a style="width:70%;" href="material?class=LANG"  class="btn btn-danger">View</a>
 
 </div>
 </div>
@@ -134,12 +133,12 @@
   <center>
     
   
-            <div class="card" style="width: 70%;">
+            <div data-aos="zoom-in" data-aos-delay="120" class="card" style="width: 70%;">
   <img src="assets/img/study-material/commerce.jpg" class="card-img-top" alt="...">
   <div class="card-body">
   <br>
   <h5 class="card-title">Commerece Study Materials  [PUC]</h5>
-    <a href="material?class=PUCM"  class="btn btn-primary">View</a>
+    <a  href="material?class=PUCM"  class="btn btn-primary">View</a>
   </div>
 </div>
   </center>
@@ -160,16 +159,16 @@
 
       <div class="col-lg-4">
         <center>
-        <h2 class="heading">Degree Study Materials</h2>
+        <h2 data-aos="fade-down" data-aos-delay="100" class="heading">Degree Study Materials</h2>
 
  
-<div class="card" style="width: 70%;">
+<div data-aos="zoom-in" data-aos-delay="120" class="card" style="width: 70%;">
 <img src="assets/img/study-material/deg.jpg" class="card-img-top" alt="...">
 <div class="card-body">
   <br>
 <h5 style="margin-top:15px;" class="card-title">B.Com Study Materials </h5>
 
-<a href="material?class=DEG"  class="btn btn-success">View</a>
+<a style="width:70%;" href="material?class=DEG"  class="btn btn-success">View</a>
 </div>
 </div>
       </div>

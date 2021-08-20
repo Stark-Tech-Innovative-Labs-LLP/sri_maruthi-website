@@ -13,6 +13,6 @@
     <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="./assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link href="./assets/css/style.css" rel="stylesheet">
