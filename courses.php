@@ -19,18 +19,6 @@ body{
     background-color:#F6F5F5!important;
 }
 
-  /* .container0{ 
-  height: 100vh;
-  width: 100vw;
-  max-height: 800px;
-  max-width: 1280px;
-  min-height: 600px;
-  min-width: 1000px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto;
-  } */
 .border{ 
   height: 300px;
   width: 300px;
@@ -48,7 +36,7 @@ body{
   transition: background 0.8s;
   overflow: hidden;
   background: black;
-  box-shadow: 0 70px 63px -60px #000000;
+  box-shadow: 0 0px 30px  rgba(31, 31, 31, 0.514);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,24 +176,26 @@ body{
   border-radius: 10px !important;
 }
   .card3:hover{ 
-    background: url('assets/img/courses/b.com_bef.jpg') left center no-repeat 
-   ; background-size: 600px;
+    background: url('assets/img/courses/b.com_bef.jpg') left center no-repeat; 
+    background-size: 600px;
    backdrop-filter: blur(10px);
    border-radius: 10px !important;
   }
 
    .card3:hover h2{  
       opacity: 1;
+      cursor:pointer;
     }
     .card3:hover h4{  
       opacity: 1;
+      cursor:pointer;
     }
     .card3:hover .fa { 
       opacity: 1;
     }
 
     .section-title{
-      margin-left:40px;
+      /* margin-left:40px; */
     }
   
 
@@ -247,7 +237,7 @@ body{
     <div class="container position-relative"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
       <h1>Courses Offered</h1>
       <h2>Learn Without Limits</h2>
-      <a href="./Contact.php" class="btn-get-started">Get Started</a>
+      <a href="./contact" class="btn-get-started">Contact Us</a>
     </div>
   </section>
 
@@ -258,7 +248,7 @@ body{
 
 
 
-<div style=" border-radius:25px; background-color:white;" class="container">
+<div class="container">
 
 
 <br>
@@ -410,12 +400,15 @@ body{
 
 </main>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <?php
+<?php
    include("footer.php");
    include("libs.php"); ?>
+
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script> -->
+  
+
 </body>
 </html>

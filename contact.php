@@ -148,17 +148,27 @@ label{
     </style>
     <?php require("./header.php") ?>
 </head>
-<section style="background: url( 'assets/img/cus.jpg' );background-position-x:40%; background-position-y:40%; " id="hero" class="d-flex justify-content-center align-items-center">
-    <div class="container position-relative"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
-      <h1>Contact Us</h1>
-      <h2>Our Door is always open to help you</h2>
-      <a href="./Contact.php" class="btn-get-started">Get Started</a>
-    </div>
-  </section>
+
 <body>
     <?php 
         @include("./navbar.php");
     ?>
+
+    <!-- <section id="hero"  style="background: url( 'assets/img/cus.jpg' )  bottom center;" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+      <h1>Contact Us</h1>
+      <h2>Our Door is always open to help you</h2>
+      <a href="#contact-form" class="btn-get-started">Contact Us</a>
+    </div>
+  </section> -->
+
+   <section id="hero" style="background: url('./assets/img/cus.jpg') center right; background-size:cover;" class="d-flex justify-content-center align-items-center">
+        <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Contact Us</h1>
+        <h2>Our Door is always open to help you</h2>
+        <a href="#contact-form" class="btn-get-started">Contact Us</a>
+        </div>
+    </section>
 
 
      <main id="main" >
@@ -209,7 +219,7 @@ We will Contact you soon
 
         </div>
 
-        <div class="row" >
+        <div class="row" id="contact-form">
 
           <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" class="col-lg-6 ">
             <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
@@ -217,7 +227,8 @@ We will Contact you soon
             </div>
 
           <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" class="col-lg-6">
-          <form style=" background-color:white; width: 90%;border:1px solid ; border-color:rgba(40, 79, 235, 0.72) ; border-radius:25px; padding:10%;">
+          <form style=" background-color:white; width: 100%;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6); padding:10%;">
   <div class="row">
     <div class="col">
         <label for="name">Name:</label>
@@ -264,7 +275,7 @@ We will Contact you soon
         <input name="mobno" type="tel"  class="form-control" placeholder="Mobile Number">
     </div>
     </div>
-    <button id="btn_submit_contact" class="btn btn-primary" type="submit"> Submit </button>
+    <button id="btn_submit_contact" class="btn btn-primary mt-3" type="submit"> Submit </button>
 </form>  
           </div>
 

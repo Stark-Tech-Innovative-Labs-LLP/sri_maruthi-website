@@ -29,6 +29,9 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
     <style>
+        #degree {
+            color: #3E64FF;
+        }
         .nav .nav-item button a:hover {
             color: red;
         }
@@ -137,7 +140,7 @@
      .thefront{
          width: 80%;
          height: 80%;
-         margin: 5px;
+         /* margin: 5px; */
      }
         }
         @media only screen and (max-width: 770px) {
@@ -151,6 +154,27 @@
         button.active {
     background-color: white !important;
 
+}
+
+.box ul button a {
+    padding: 4px 10px !important;
+    background-color: #3E64FF !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    margin: 4px;
+    font-size: 0.9rem !important;
+    border: 2px solid #3E64FF;
+    transition: ease 0.4s;
+}
+
+.box ul button a:hover {
+    color: #3E64FF !important;
+    background-color: #fff !important;
+}
+
+.thefront h3 {
+    color: #3E64FF !important; 
+    font-size: 1.2rem !important;
 }
     </style>
 
@@ -174,31 +198,31 @@
     </section><!-- End Hero -->
 
     <main id="main">
-        <section class="">
-            <div class="container box" style="width:80%; height:auto; padding:30px;   font-size:19px; border:2px solid red; border-radius:10px;">
+        <!-- <section class="">
+            <div class="container box" style="width:100%; height:auto;   font-size:19px; ">
 
-                <center>
+ 
 
-                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills mb-0" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation" style="background-color: white;">
-                            <button style="  float:left;" class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="background-color: white;"><a href="#Objective">Objective</a></button>
+                            <button style="  float:left; " class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="background-color: white;"><a style="text-decoration: none; color:rgba(0, 0, 0, 0.7);" href="#Objective">Objective</a></button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><a href="#Pedagogy">Pedagogy</a></button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><a style="text-decoration: none; color:rgba(0, 0, 0, 0.7);" href="#Pedagogy">Pedagogy</a></button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><a href="#Outcomes">Outcomes</a></button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><a style="text-decoration: none; color:rgba(0, 0, 0, 0.7);" href="#Outcomes">Outcomes</a></button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button style=" float:right;" class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><a href="#CourseMatrix">Course Matrix</a></button>
+                            <button style=" float:right;" class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><a style="text-decoration: none; color:rgba(0, 0, 0, 0.7);" href="#CourseMatrix">Course Matrix</a></button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><a href="#Faculty">Faculty</a></button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><a style="text-decoration: none; color:rgba(0, 0, 0, 0.7);" href="#Faculty">Faculty</a></button>
                         </li>
                     </ul>
-                </center>
+ 
             </div>
-        </section>
+        </section> -->
 
         <!-- ojective  -->
         <section id="Objective" class="courses">
@@ -393,7 +417,7 @@
                             <div class="container mt-5 d-flex justify-content-center ">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="maincard p-3">
+                                        <div class="maincard p-5">
                                             <div class="thecard">
                                                 <div class="thefront text-center py-4"> <img src="https://i.imgur.com/o5uMfKo.jpg" class="rounded-circle mt-5" width="100">
                                                     <h3 class="mt-2 mb-0">Jane Dae</h3>
@@ -403,7 +427,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="maincard p-3">
+                                        <div class="maincard p-5">
                                             <div class="thecard">
                                                 <div class="thefront text-center py-4"> <img src="https://i.imgur.com/tmdHXOY.jpg" class="rounded-circle mt-5" width="100">
                                                     <h3 class="mt-2 mb-0">Manor Josa</h3>
@@ -413,7 +437,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="maincard p-3">
+                                        <div class="maincard p-5">
                                             <div class="thecard">
                                                 <div class="thefront text-center py-4"> <img src="https://i.imgur.com/8JiAQGa.jpg" class="rounded-circle mt-5" width="100">
                                                     <h3 class="mt-2 mb-0">Jimmy Anderson</h3>
@@ -428,7 +452,7 @@
                             <div class="container mt-5 d-flex justify-content-center ">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="maincard p-3">
+                                        <div class="maincard p-5">
                                             <div class="thecard">
                                                 <div class="thefront text-center py-4"> <img src="https://i.imgur.com/o5uMfKo.jpg" class="rounded-circle mt-5" width="100">
                                                     <h3 class="mt-2 mb-0">Jane Dae</h3>
@@ -438,7 +462,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="maincard p-3">
+                                        <div class="maincard p-5">
                                             <div class="thecard">
                                                 <div class="thefront text-center py-4"> <img src="https://i.imgur.com/tmdHXOY.jpg" class="rounded-circle mt-5" width="100">
                                                     <h3 class="mt-2 mb-0">Manor Josa</h3>
@@ -448,7 +472,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="maincard p-3">
+                                        <div class="maincard p-5">
                                             <div class="thecard">
                                                 <div class="thefront text-center py-4"> <img src="https://i.imgur.com/8JiAQGa.jpg" class="rounded-circle mt-5" width="100">
                                                     <h3 class="mt-2 mb-0">Jimmy Anderson</h3>
@@ -472,17 +496,6 @@
     <?php
     include("footer.php");
     include("libs.php"); ?>
-
-
-
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
 
 </body>
 

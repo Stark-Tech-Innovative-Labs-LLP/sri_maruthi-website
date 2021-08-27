@@ -1,11 +1,11 @@
 <header id="header" class="fixed-top">
 
-<style>
+<!-- <style>
      div{
           margin:auto !important;
           padding: auto !important;
         }
-</style>
+</style> -->
 
 
 <div class="container d-flex align-items-center">
@@ -21,7 +21,8 @@
           <li><a id="event" href="./Events">Events</a></li>
           <li><a id="courses" href="./Courses">Courses</a></li>
           <li><a id="contact" href="./Contact">Contact</a></li>
-          <li class="dropdown">
+          <li><a id="study-material" href="./StudyMaterial">Study Material</a></li>
+          <!-- <li class="dropdown">
             <a href="#"><span>Resource</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li>
@@ -29,7 +30,7 @@
                 <li><a id="study-material" href="./StudyMaterial">Study Material</a></li>
               </li>
             </ul>
-          </li>
+          </li> -->
           <li class="dropdown">
             <a href="#"><span>Fields</span> <i class="bi bi-chevron-down"></i></a>
             <ul>

@@ -29,6 +29,9 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
     <style>
+        #pu {
+            color: #3E64FF;
+        }
         .maincard {
             position: relative;
             width: 300px;
@@ -123,7 +126,7 @@
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
             <h1>PUC</h1>
             <h2>A happy school, A brighter future. Creating a path of knowledge</h2>
-            <a href="courses" class="btn-get-started">Get Started</a>
+            <a href="./contact" class="btn-get-started">Contact Us</a>
         </div>
     </section><!-- End Hero -->
 
@@ -209,9 +212,9 @@
                     <p>Students Testimonials</p>
                 </div>
 
-                <div class="container mt-5 d-flex justify-content-center ">
+                <div class="container  d-flex justify-content-center ">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/o5uMfKo.jpg" class="rounded-circle mt-5" width="100">
@@ -226,7 +229,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/tmdHXOY.jpg" class="rounded-circle mt-5" width="100">
@@ -241,7 +244,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/8JiAQGa.jpg" class="rounded-circle mt-5" width="100">
@@ -266,9 +269,9 @@
             <!-- ======= Trainers Section ======= -->
 
             <div class="container" data-aos="fade-up">
-                <div class="container mt-5 d-flex justify-content-center ">
+                <div class="container  d-flex justify-content-center ">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/o5uMfKo.jpg" class="rounded-circle mt-5" width="100">
@@ -283,7 +286,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/tmdHXOY.jpg" class="rounded-circle mt-5" width="100">
@@ -298,7 +301,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/8JiAQGa.jpg" class="rounded-circle mt-5" width="100">
@@ -330,9 +333,9 @@
                     <p>Parents Testimonials</p>
                 </div>
 
-                <div class="container mt-5 d-flex justify-content-center ">
+                <div class="container  d-flex justify-content-center ">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/o5uMfKo.jpg" class="rounded-circle mt-5" width="100">
@@ -342,16 +345,15 @@
                                         <div class="quote mt-3">
                                             <h4><i class="fa fa-quote-left"></i></h4>
                                             <p class="about text-justify"><b>HBR Layout, Bangalore</b> <br> <br>
-" (Mother of Lochan Karthick - Student of Sri Maruthi PU College (2016-18) who secured a Engineering seat in IIT KANPUR)
-I am really Happy that my son is studying @ IIT Kanpur. Thank you Sri Maruthi PU College for the opportunity and encouragement. "
-
-</p>
+                                            " (Mother of Lochan Karthick - Student of Sri Maruthi PU College (2016-18) who secured a Engineering seat in IIT KANPUR)
+                                            I am really Happy that my son is studying @ IIT Kanpur. Thank you Sri Maruthi PU College for the opportunity and encouragement. "
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/tmdHXOY.jpg" class="rounded-circle mt-5" width="100">
@@ -361,14 +363,14 @@ I am really Happy that my son is studying @ IIT Kanpur. Thank you Sri Maruthi PU
                                         <div class="quote mt-3">
                                             <h4><i class="fa fa-quote-left"></i></h4>
                                             <p class="about text-justify"><b>Sindhanur, Karnataka</b> <br> <br>
-" (Father of M Nagavarun – Student of Sri Maruthi PU College ( 2017-19) - Pursuing 2 year MBBS & Karnataka Institute of Medical Sciences,Vidyanagar,Hubli, Student of Sri Maruthi PU College 2019 Batch.)
-Sri Maruthi PU College is one of the very few colleges in Karnataka where the owner / chairman himself closely monitors the students and motivates them to achieve success. "</p>
+                                " (Father of M Nagavarun – Student of Sri Maruthi PU College ( 2017-19) - Pursuing 2 year MBBS & Karnataka Institute of Medical Sciences,Vidyanagar,Hubli, Student of Sri Maruthi PU College 2019 Batch.)
+                                Sri Maruthi PU College is one of the very few colleges in Karnataka where the owner / chairman himself closely monitors the students and motivates them to achieve success. "</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/8JiAQGa.jpg" class="rounded-circle mt-5" width="100">
@@ -378,8 +380,8 @@ Sri Maruthi PU College is one of the very few colleges in Karnataka where the ow
                                         <div class="quote mt-3">
                                             <h4><i class="fa fa-quote-left"></i></h4>
                                             <p class="about text-justify"><b>Bagepalli, Karnataka</b> <br> <br>
-(Father of Bhavya B – Student of Sri Maruthi PU College ( 2017-19) - Pursuing 2 year BSc ( Seri ) @ College of Sericulture, Chintamani. Student of Sri Maruthi PU College 2019 Batch)
-Sri Maruthi PU College Management and staff are very friendly with Parents, also the college is consistently delivering good results since 3 years, my daughter completed PUC and got a seat in College of Sericulture, Chintamani, I will always be one of their well wishers.</p>
+                            "(Father of Bhavya B – Student of Sri Maruthi PU College ( 2017-19) - Pursuing 2 year BSc ( Seri ) @ College of Sericulture, Chintamani. Student of Sri Maruthi PU College 2019 Batch)
+                            Sri Maruthi PU College Management and staff are very friendly with Parents, also the college is consistently delivering good results since 3 years, my daughter completed PUC and got a seat in College of Sericulture, Chintamani, I will always be one of their well wishers.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -397,7 +399,7 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
             <div class="container" data-aos="fade-up">
                 <div class="container mt-5 d-flex justify-content-center ">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/o5uMfKo.jpg" class="rounded-circle mt-5" width="100">
@@ -412,7 +414,7 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/tmdHXOY.jpg" class="rounded-circle mt-5" width="100">
@@ -427,7 +429,7 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5">
                             <div class="maincard p-3">
                                 <div class="thecard">
                                     <div class="thefront text-center py-4"> <img src="https://i.imgur.com/8JiAQGa.jpg" class="rounded-circle mt-5" width="100">
@@ -509,15 +511,6 @@ Sri Maruthi PU College Management and staff are very friendly with Parents, also
     include("footer.php");
     include("libs.php"); ?>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
 
 </body>
 

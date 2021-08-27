@@ -7,159 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
     <style>
-        #contact {
+       #study-material {
             color: #3E64FF;
         }
-        
-label{
-  color: black !important;
-  font-weight: 550 !important;
-}
-
-@media only screen and (min-width: 600px) {
-        #contact_us_txt {
-  margin-top:70px;
-  }
-}
-
-.contact .info-box {
-  color: #444444;
-  text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
-}
-
-.contact .info-box i {
-  font-size: 32px;
-  color: #3E64FF;
-  border-radius: 50%;
-  padding: 8px;
-  border: 2px dotted #3E64FF;
-}
-
-.contact .info-box h3 {
-  font-size: 20px;
-  color: #777777;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.contact .info-box p {
-  padding: 0;
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #cc1616;
-}
-
-.contact .php-email-form input {
-  padding: 10px 15px;
-}
-
-.contact .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #cc1616;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #e82d2d;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-
-
-
-
-
-
-        .section-title{
-          margin-top:40px !important;
-      margin-left:40px !important;
-        }
-
-
         body{
             height:100%;
             width:100%;
@@ -194,7 +44,16 @@ label{
         }
 
 
+ .section-title{
+          margin-top:40px !important;
+          margin-left:60px !important;
+        }
 
+        @media (max-width:500px) {
+            .section-title{
+              margin-left:20px !important;
+        }
+        }
 
 
 
@@ -202,17 +61,19 @@ label{
     </style>
     <?php require("./header.php") ?>
 </head>
-<section style="background: url( 'assets/img/study-material/head1.jpg' );background-position-x:40%; background-position-y:40%; " id="hero" class="d-flex justify-content-center align-items-center">
-    <div class="container position-relative"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
-      <h1>Materials</h1>
-      <h2>No matter how busy you may think you are, you must find time for reading</h2>
-      <a href="courses.html" class="btn-get-started">Get Started</a>
-    </div>
-  </section>
+
 <body>
     <?php 
         @include("./navbar.php");
     ?>
+
+    <section style="background: url( 'assets/img/study-material/head1.jpg' );background-position-x:40%; background-position-y:40%; " id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+      <h1>Materials</h1>
+      <h2>No matter how busy you may think you are, you must find time for reading</h2>
+      <a href="./contact" class="btn-get-started">Contact Us</a>
+    </div>
+  </section>
 
 
 <main  id="main">
@@ -225,10 +86,10 @@ label{
 
 
 </center> 
-<div  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" style="align:left;" class="section-title">
-        <h2>Languages</h2>
-        <p>Languages</p>
-    </div> 
+ <div class="section-title">
+                    <h2>Study Materials</h2>
+                    <p>Study Materials</p>
+                </div>
     <center>
 
 
@@ -246,7 +107,7 @@ label{
 <div class="card-body">
 
 <h5 class="card-title">Kannada Study Materials <br> [PUC]</h5>
-<a href="Docs?class=PUCK1"  class="btn btn-danger">View</a>
+<a href="Docs?class=PUCK1"  class="btn btn-primary">View</a>
 </div>
 </div>
          </div> 
@@ -256,7 +117,7 @@ label{
 <div class="card-body">
 
 <h5 class="card-title">English Study Materials <br> [PUC]</h5>
-<a href="Docs?class=PUCE1"  class="btn btn-danger">View</a>
+<a href="Docs?class=PUCE1"  class="btn btn-primary">View</a>
 </div>
 </div>
          </div>
@@ -266,7 +127,7 @@ label{
 <div class="card-body"> 
 
 <h5 class="card-title">Hindi Study Materials <br> [PUC]</h5>
-<a href="Docs?class=PUCH1"  class="btn btn-danger">View</a>
+<a href="Docs?class=PUCH1"  class="btn btn-primary">View</a>
 </div>
 </div>
          </div>
@@ -281,7 +142,7 @@ label{
   <div class="card-body">
 
     <h5 class="card-title">Kannada Study Materials <br> [PUC]</h5>
-    <a href="Docs?class=PUCK2"  class="btn btn-danger">View</a>
+    <a href="Docs?class=PUCK2"  class="btn btn-primary">View</a>
   </div>
 </div>
                 </div>
@@ -292,7 +153,7 @@ label{
   <div class="card-body">
 
     <h5 class="card-title">English Study Materials <br> [PUC]</h5>
-    <a href="Docs?class=PUCE2"  class="btn btn-danger">View</a>
+    <a href="Docs?class=PUCE2"  class="btn btn-primary">View</a>
   </div>
 </div>
                 </div>
@@ -303,7 +164,7 @@ label{
   <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
   <div class="card-body"> 
     <h5 class="card-title">Hindi Study Materials <br> [PUC]</h5>
-    <a href="Docs?class=PUCH2"  class="btn btn-danger">View</a>
+    <a href="Docs?class=PUCH2"  class="btn btn-primary">View</a>
   </div>
 </div>
                 </div>
@@ -334,7 +195,7 @@ label{
     <br>
     <h5 class="card-title">Physics Study Materials </h5>
     
-    <a href="Docs?class=PUCP1"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCP1"  class="btn btn-primary">View</a>
   </div>
 </div></div>
               <div class="col-lg-6">
@@ -343,7 +204,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Cemistry Study Materials </h5>
-    <a href="Docs?class=PUCC1"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCC1"  class="btn btn-primary">View</a>
   </div>
 </div></div>
             </div>
@@ -354,7 +215,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Mathematics Study Materials </h5>
-    <a href="Docs?class=PUCM1"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCM1"  class="btn btn-primary">View</a>
   </div>
 </div></div>
               <div class="col-lg-6">  
@@ -363,7 +224,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Bilogy Study Materials </h5>
-    <a href="Docs?class=PUCB1"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCB1"  class="btn btn-primary">View</a>
   </div>
 </div></div>
 </div>
@@ -376,7 +237,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Computer Science Study Materials </h5>
-    <a href="Docs?class=PUCCS1"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCCS1"  class="btn btn-primary">View</a>
   </div>
 </div></div>
 </center>
@@ -391,7 +252,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Physics Study Materials </h5>
-    <a href="Docs?class=PUCP2"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCP2"  class="btn btn-primary">View</a>
   </div>
 </div></div>
               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 60%;">
@@ -399,7 +260,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Cemistry Study Materials </h5>
-    <a href="Docs?class=PUCC2"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCC2"  class="btn btn-primary">View</a>
   </div>
 </div></div>
             </div>
@@ -409,7 +270,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Mathematics Study Materials </h5>
-    <a href="Docs?class=PUCM2"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCM2"  class="btn btn-primary">View</a>
   </div>
 </div></div>
               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 60%;">
@@ -417,7 +278,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Bilogy Study Materials </h5>
-    <a href="Docs?class=PUCB2"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCB2"  class="btn btn-primary">View</a>
   </div>
 </div></div>
 <div class="row">
@@ -429,7 +290,7 @@ label{
   <div class="card-body">
     <br>
     <h5 class="card-title">Computer Science Study Materials </h5>
-    <a href="Docs?class=PUCCS2"  class="btn btn-success">View</a>
+    <a href="Docs?class=PUCCS2"  class="btn btn-primary">View</a>
   </div>
 </div></div>
 </center>
@@ -460,7 +321,7 @@ label{
      <br>
      <h5 class="card-title">Economics Study Materials </h5>
      <br>
-     <a href="Docs?class=PUCE1"  class="btn btn-success">View</a>
+     <a href="Docs?class=PUCE1"  class="btn btn-primary">View</a>
    </div>
  </div></div>
                <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 60%;">
@@ -469,7 +330,7 @@ label{
      <br>
      <h5 class="card-title">Business Studies Study Materials </h5>
      <br>
-     <a href="Docs?class=PUCBS1"  class="btn btn-success">View</a>
+     <a href="Docs?class=PUCBS1"  class="btn btn-primary">View</a>
    </div>
  </div></div>
              </div>
@@ -480,7 +341,7 @@ label{
      <br>
    <h5 class="card-title">Accountancy Study Materials </h5>
    <br>
-     <a href="Docs?class=PUCA1"  class="btn btn-success">View</a>
+     <a href="Docs?class=PUCA1"  class="btn btn-primary">View</a>
    </div>
  </div></div>
                <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 60%;">
@@ -489,7 +350,7 @@ label{
      <br>
      <h5 class="card-title">Computer Science Study Materials </h5>
      <br>
-     <a href="Docs?class=PUCCCS1"  class="btn btn-success">View</a>
+     <a href="Docs?class=PUCCCS1"  class="btn btn-primary">View</a>
    </div>
  </div></div>
            
@@ -502,7 +363,7 @@ label{
      <br>
      <h5 class="card-title">Economics Study Materials </h5>
      <br>
-     <a href="Docs?class=PUCE2"  class="btn btn-success">View</a>
+     <a href="Docs?class=PUCE2"  class="btn btn-primary">View</a>
    </div>
  </div></div>
                <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 60%;">
@@ -511,7 +372,7 @@ label{
      <br>
      <h5 class="card-title">Business Studies Study Materials </h5>
      <br>
-     <a href="Docs?class=PUCBS2"  class="btn btn-success">View</a>
+     <a href="Docs?class=PUCBS2"  class="btn btn-primary">View</a>
    </div>
  </div></div>
              </div>
@@ -522,7 +383,7 @@ label{
      <br>
    <h5 class="card-title">Accountancy Study Materials </h5>
    <br>
-     <a href="Docs?class=PUCA2"  class="btn btn-success">View</a>
+     <a href="Docs?class=PUCA2"  class="btn btn-primary">View</a>
    </div>
  </div></div>
                <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 60%;">
@@ -531,7 +392,7 @@ label{
      <br>
      <h5 class="card-title">Computer Science Study Materials </h5>
      <br>
-     <a href="Docs?class=PUCCCS2"  class="btn btn-success">View</a>
+     <a href="Docs?class=PUCCCS2"  class="btn btn-primary">View</a>
    </div>
  </div></div>
            
@@ -546,9 +407,14 @@ label{
  </div>
 </main>
 
-            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <?php
+    include("footer.php");
+    include("libs.php"); ?>
+
+            <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script>
+  </script> -->
     </body>
 </html>
