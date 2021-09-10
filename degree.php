@@ -190,8 +190,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex justify-content-center align-items-center" style="background-image: url('assets/img/degree.png'); background-position:center;">
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-            <h2>DEGREE</h2>
-            <h1>B.Com.</h1>
+        <h1>WELCOME TO SRI MARUTHI DEGREE COLLEGE.</h1>
             <h2> Today a reader, tomorrow a leader.</h2>
             <a href="contact" class="btn-get-started">Contact Us</a>
         </div>

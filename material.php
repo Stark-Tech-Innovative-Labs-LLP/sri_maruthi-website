@@ -169,15 +169,26 @@ label{
           border-top-right-radius:22px !important;
        
         }
-        .card-img-top{
-             height:180px !important;
-        }
-        .card{ 
+
+
+
+
+    .card{ 
+          width:60%;
           margin-bottom: 40px !important;
           border-radius:22px !important;
         height:320px; 
         }
-
+        @media only screen and (max-width: 550px) {
+          .card{ 
+            width:80%;
+      
+        }
+}
+        .card-img-top{
+             height:180px !important;
+        }
+    
         .btn{
           width:50%;
           margin:9px;
@@ -241,7 +252,7 @@ label{
        <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" class="heading"> 1<sup>st</sup> PU Languages</h3>
         <div class="col-lg-4">
 
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
 <img src="https://i.gadgets360cdn.com/large/kannada_google_1622781055470.jpg" class="card-img-top" alt="...">
 <div class="card-body">
 
@@ -251,7 +262,7 @@ label{
 </div>
          </div> 
          <div class="col-lg-4">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
 <img src="https://img.etimg.com/thumb/msid-77058712,width-650,imgsize-172210,,resizemode-4,quality-100/english_istock.jpg" class="card-img-top" alt="...">
 <div class="card-body">
 
@@ -261,7 +272,7 @@ label{
 </div>
          </div>
          <div class="col-lg-4">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
 <img src="https://images.indianexpress.com/2019/07/hindi-759.jpg" class="card-img-top" alt="...">
 <div class="card-body"> 
 
@@ -276,7 +287,7 @@ label{
        <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="130" class="heading"> 2<sup>nd</sup> PU Languages</h3>
                <div class="row">
                <div class="col-lg-4">
-               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="https://i.pinimg.com/originals/c1/df/c5/c1dfc543bcf0dd88fc4211ab5c5fd4ea.jpg" class="card-img-top" alt="...">
   <div class="card-body">
 
@@ -287,7 +298,7 @@ label{
                 </div>
                 
                 <div class="col-lg-4">
-               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLo7pggn0BQDSQnOFHQZdaAz1ThaSA7Zr7Lg&usqp=CAU" class="card-img-top" alt="...">
   <div class="card-body">
 
@@ -299,7 +310,7 @@ label{
 
 
                 <div class="col-lg-4">
-               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png" class="card-img-top" alt="...">
   <div class="card-body"> 
     <h5 class="card-title">Hindi Study Materials <br> [PUC]</h5>
@@ -328,17 +339,17 @@ label{
   <h3 class="heading"> 1<sup>st</sup> PU Science </h3>
             <div class="row">
               <div class="col-lg-6"> 
-                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/phy1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <br>
+  
     <h5 class="card-title">Physics Study Materials </h5>
     
     <a href="Docs?class=PUCP1"  class="btn btn-success">View</a>
   </div>
 </div></div>
               <div class="col-lg-6">
-                  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+                  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/chem1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
@@ -349,7 +360,7 @@ label{
             </div>
             <div class="row">
               <div class="col-lg-6"> 
-                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/math1.png" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
@@ -358,7 +369,7 @@ label{
   </div>
 </div></div>
               <div class="col-lg-6">  
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/bio2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
@@ -371,10 +382,10 @@ label{
 <div class="col-lg-3"></div>
 <center>
 <div class="col-lg-6"> 
-               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/cs1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <br>
+   
     <h5 class="card-title">Computer Science Study Materials </h5>
     <a href="Docs?class=PUCCS1"  class="btn btn-success">View</a>
   </div>
@@ -386,7 +397,7 @@ label{
           <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="130" class="heading"> 2<sup>nd</sup> PU Science</h3>
             <div class="row">
               <div class="col-lg-6">  
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/phy2.png" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
@@ -394,7 +405,7 @@ label{
     <a href="Docs?class=PUCP2"  class="btn btn-success">View</a>
   </div>
 </div></div>
-              <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+              <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/chem2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
@@ -404,7 +415,7 @@ label{
 </div></div>
             </div>
             <div class="row">
-              <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+              <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/math2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
@@ -412,7 +423,7 @@ label{
     <a href="Docs?class=PUCM2"  class="btn btn-success">View</a>
   </div>
 </div></div>
-              <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+              <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/bio1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <br>
@@ -424,10 +435,10 @@ label{
 <div class="col-lg-3"></div>
 <center>
 <div class="col-lg-6"> 
-               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
   <img src="assets/img/study-material/cs2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <br>
+
     <h5 class="card-title">Computer Science Study Materials </h5>
     <a href="Docs?class=PUCCS2"  class="btn btn-success">View</a>
   </div>
@@ -454,7 +465,7 @@ label{
 <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="130" class="heading"> 1<sup>st</sup> PU Commerce</h3>
         <div class="row">
                <div class="col-lg-6"> 
-                  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+                  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
    <img src="assets/img/study-material/e1.jpg" class="card-img-top" alt="...">
    <div class="card-body">
      <br>
@@ -463,7 +474,7 @@ label{
      <a href="Docs?class=PUCE1"  class="btn btn-success">View</a>
    </div>
  </div></div>
-               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
    <img src="assets/img/study-material/bs1.jpg" class="card-img-top" alt="...">
    <div class="card-body">
      <br>
@@ -474,7 +485,7 @@ label{
  </div></div>
              </div>
              <div class="row">
-               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
    <img src="assets/img/study-material/ac1.jpg" class="card-img-top" alt="...">
    <div class="card-body">
      <br>
@@ -483,7 +494,7 @@ label{
      <a href="Docs?class=PUCA1"  class="btn btn-success">View</a>
    </div>
  </div></div>
-               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
    <img src="assets/img/study-material/ccs1.png" class="card-img-top" alt="...">
    <div class="card-body">
      <br>
@@ -496,7 +507,7 @@ label{
              </div>
              <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="130" class="heading"> 2<sup>nd</sup> PU Commerce</h3>
              <div class="row">
-               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
    <img src="assets/img/study-material/e2.jpg" class="card-img-top" alt="...">
    <div class="card-body">
      <br>
@@ -505,7 +516,7 @@ label{
      <a href="Docs?class=PUCE2"  class="btn btn-success">View</a>
    </div>
  </div></div>
-               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
    <img src="assets/img/study-material/bs2.jpg" class="card-img-top" alt="...">
    <div class="card-body">
      <br>
@@ -516,7 +527,7 @@ label{
  </div></div>
              </div>
              <div class="row">
-               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
    <img src="assets/img/study-material/ac2.jpg" class="card-img-top" alt="...">
    <div class="card-body">
      <br>
@@ -525,7 +536,7 @@ label{
      <a href="Docs?class=PUCA2"  class="btn btn-success">View</a>
    </div>
  </div></div>
-               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card" style="width: 70%;">
+               <div class="col-lg-6">  <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130" class="card"   >
    <img src="assets/img/study-material/ccs2.jpg" class="card-img-top" alt="...">
    <div class="card-body">
      <br>

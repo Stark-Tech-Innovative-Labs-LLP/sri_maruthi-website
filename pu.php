@@ -124,7 +124,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex justify-content-center align-items-center" style="background-image: url('assets/img/book.jpg')">
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-            <h1>PUC</h1>
+        <h1>WELCOME TO SRI MARUTHI PU COLLEGE.</h1>
             <h2>A happy school, A brighter future. Creating a path of knowledge</h2>
             <a href="./contact" class="btn-get-started">Contact Us</a>
         </div>
@@ -141,7 +141,7 @@
                         <img src="assets/img/chairmen.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                        <h3>WELCOME TO SRI MARUTHI PU COLLEGE.</h3>
+                        
                        <br>
                         <p class="para1">
                             " Sri Maruthi college are certainly Asia’s esteemed power houses for intranational and international competitive courses.

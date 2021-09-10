@@ -40,9 +40,9 @@
           margin:9px;
         }
 
-        div{
-          margin:0 !important;
-          padding: 0 !important;
+       main#main div{
+          margin:0 ;
+          padding: 0 ;
         }
 
         .heading{
@@ -79,7 +79,7 @@
 <br>
 <br>
 
-<main id= " main">
+<main id= "main">
 <div data-aos="fade-right" data-aos-delay="100"   class="section-title">
         <h2>Study Materials </h2>
         <p>Study Materials</p>
