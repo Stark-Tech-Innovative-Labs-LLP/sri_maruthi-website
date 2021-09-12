@@ -46,48 +46,6 @@
             transition: all 0.8s ease
         }
 
-        .thecard:hover {
-           
-            -webkit-transform:rotateY(180deg);
-
--moz-transform: rotateY(180deg);
-
--o-transform: rotateY(180deg);
-        }
-
-        .thefront {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: hidden;
-            background: #3E64FF;
-            color: #fff;
-            border-radius: 10px;
-            cursor: pointer;
-            border: 1px solid #eee;
-            box-shadow: 5px 6px 6px 2px #e9ecef;
-            padding: 10px
-        }
-
-        .theback {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            cursor: pointer;
-            background-color: hidden;
-            background: yellow;
-            color: #fff;
-            border-radius: 10px;
-           
-            -webkit-transform: rotateY(180deg);
-
--moz-transform:rotateY(180deg);
-
--o-transform: rotateY(180deg);
-            border: 1px solid #eee;
-            box-shadow: 5px 6px 6px 2px #e9ecef;
-            padding: 10px
-        }
 
         .user_name {
             color: #eee;
