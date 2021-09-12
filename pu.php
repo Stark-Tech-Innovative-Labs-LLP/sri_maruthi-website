@@ -47,7 +47,12 @@
         }
 
         .thecard:hover {
-            transform: rotateY(180deg)
+           
+            -webkit-transform:rotateY(180deg);
+
+-moz-transform: rotateY(180deg);
+
+-o-transform: rotateY(180deg);
         }
 
         .thefront {
@@ -73,7 +78,12 @@
             background: yellow;
             color: #fff;
             border-radius: 10px;
-            transform: rotateY(180deg);
+           
+            -webkit-transform: rotateY(180deg);
+
+-moz-transform:rotateY(180deg);
+
+-o-transform: rotateY(180deg);
             border: 1px solid #eee;
             box-shadow: 5px 6px 6px 2px #e9ecef;
             padding: 10px
