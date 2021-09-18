@@ -370,13 +370,13 @@
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="./assets/img/course-1.jpg" class="d-block w-100" alt="...">
+                                <img src="./assets/img/college-3.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="./assets/img/course-2.jpg" class="d-block w-100" alt="...">
+                                <img src="./assets/img/college-2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="./assets/img/course-3.jpg" class="d-block w-100" alt="...">
+                                <img src="./assets/img/college-5.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -449,7 +449,7 @@
 
                     </div>
 
-                    <div class="col-lg-4 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/about.jpg");' data-aos="fade-left">&nbsp;</div>
+                    <div class="col-lg-4 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/college-4.jpg");' data-aos="fade-left">&nbsp;</div>
                     </div>
 
                 </div>

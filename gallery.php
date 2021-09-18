@@ -57,45 +57,45 @@
 
                         <div class="col-lg-3 col-md-4">
                             <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/college-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                                <img src="assets/img/college-4.jpg" alt="" class="img-fluid">
                             </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
                             <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/college-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                                <img src="assets/img/college-1.jpg" alt="" class="img-fluid">
                             </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
                             <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/college-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                                <img src="assets/img/college-2.jpg" alt="" class="img-fluid">
                             </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
                             <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/college-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                                <img src="assets/img/college-3.jpg" alt="" class="img-fluid">
                             </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
                             <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/college-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                                <img src="assets/img/college-5.jpg" alt="" class="img-fluid">
                             </a>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-4">
+                        <!-- <div class="col-lg-3 col-md-4">
                             <div class="gallery-item">
                             <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
                                 <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
@@ -117,7 +117,7 @@
                                 <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
                             </a>
                             </div>
-                        </div>
+                        </div> -->
 
                         </div>
 

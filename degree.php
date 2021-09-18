@@ -258,7 +258,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                        <img src="assets/img/img1.jpg" class="img-fluid right" alt="" style="height: 250px; width:280;  ">
+                        <img src="assets/img/college-1.jpg" class="img-fluid right" alt="" style="height: 250px; width:280;  ">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
 
@@ -303,7 +303,7 @@
 
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" style="margin-right: 0px;">
-                        <img src="assets/img/img2.jpg" class="img-fluid" alt="" style="height: 250px; width:250;  ">
+                        <img src="assets/img/college-3.jpg" class="img-fluid" alt="" style="height: 250px; width:250;  ">
 
                     </div>
                 </div>
@@ -321,7 +321,7 @@
                 
                 <div class="row">
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                        <img src="assets/img/img3.jpg" class="img-fluid right" alt="" style="height: 250px; width:250;  ">
+                        <img src="assets/img/college-4.jpg" class="img-fluid right" alt="" style="height: 250px; width:250;  ">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
 
