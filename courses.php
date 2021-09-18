@@ -215,7 +215,14 @@ body{
   opacity: 0;
   transition: opacity 1s;
     }
-    
+.commerce_title{
+  margin-top:-36px;
+      }    
+    @media screen and (max-width: 991px) {
+      .commerce_title{
+        margin-top:62px;
+      }
+}
 
 
     </style>
@@ -266,20 +273,18 @@ body{
         
   
 
-<div  class="col-lg-8"><h4 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"> <center><b>Science</b></center> </h4></div>
+<div  class="col-lg-8"></div>
     
 <div class="col-lg-4"><center>
-        <h4 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
-            <b>Commerce</b>
-        </h4>
+      
     </center></div>
 
-<br>
-<br>
 
+<center><h4 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"> <b>Science</b> </h4></center>
 
 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" class="col-lg-4"> 
 <center> 
+
   <div  class="card card0">
      <div class="border">
          <br>
@@ -317,15 +322,17 @@ body{
 
 
  
-    <br>
-<br>
 
     <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" class="col-lg-4"> 
-
+<center>
+      <h4 class="commerce_title"  data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
+            <b>Commerce</b>
+        </h4>
+</center>
 <center> 
   <div  class="card card2">
      <div class="border">
-         <br>
+       
       <h1 style="color:white;">EBACS</h1>
 
       <h4>Economics</h4>

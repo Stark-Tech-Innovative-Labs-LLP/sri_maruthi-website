@@ -176,6 +176,31 @@
     color: #3E64FF !important; 
     font-size: 1.2rem !important;
 }
+
+.courses {
+    margin-left: 6%;
+}
+#CourseMatrix{
+    margin-left: 0%;
+}
+#Faculty{
+    margin-left: 0%;
+    margin-right: 10%;
+    padding-right: 2%;
+}
+@media only screen and (max-width: 418px) {
+    .courses {
+    margin-left: 0%;
+}
+#CourseMatrix{
+    margin-left: 0%;
+}
+#Faculty{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+}
     </style>
 
 </head>
@@ -190,8 +215,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex justify-content-center align-items-center" style="background-image: url('assets/img/degree.png'); background-position:center;">
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-            <h2>DEGREE</h2>
-            <h1>B.Com.</h1>
+        <h1>WELCOME TO SRI MARUTHI DEGREE COLLEGE.</h1>
             <h2> Today a reader, tomorrow a leader.</h2>
             <a href="contact" class="btn-get-started">Contact Us</a>
         </div>
@@ -234,7 +258,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                        <img src="assets/img/img1.jpg" class="img-fluid right" alt="" style="height: 250px; width:250;  ">
+                        <img src="assets/img/img1.jpg" class="img-fluid right" alt="" style="height: 250px; width:280;  ">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
 
@@ -252,7 +276,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        
 
         <!-- course  -->
         <section id="Pedagogy" class="courses">
@@ -294,6 +318,7 @@
                     <h2>Outcomes</h2>
                     <p>career outcomes</p>
                 </div>
+                
                 <div class="row">
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
                         <img src="assets/img/img3.jpg" class="img-fluid right" alt="" style="height: 250px; width:250;  ">
@@ -487,6 +512,7 @@
                         </div>
                                 
                 </section>
+
                
 
     </main><!-- End #main -->
